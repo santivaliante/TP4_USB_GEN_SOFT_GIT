@@ -24,6 +24,7 @@ namespace TP4_USB_GEN_SOFT
         
         byte[] Mess1 = new byte[29];                //tb du message à envoyer
         bool Sauvegarde = false;                    //Etat de sauvegarde
+        bool flagReception = false;                 //Réception du message
 
         //Constantes
 
@@ -121,6 +122,7 @@ namespace TP4_USB_GEN_SOFT
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            timer1.Stop();              //Stoper le timer
             //Fermer le port
             serialPort1.Close();
         }
@@ -160,11 +162,15 @@ namespace TP4_USB_GEN_SOFT
                 }
             }
 
-            //Si on a une sauvegarde
-            if (RxMess[27].ToString() == "49") //49 ASCII = 1
+            if (flagReception == true)
             {
-                //Quittance sauvegarde
-                MessageBox.Show("Backup done", "Warning !");
+                //Si on a une sauvegarde
+                if (RxMess[27].ToString() == "49") //49 ASCII = 1
+                {
+                    //Quittance sauvegarde
+                    MessageBox.Show("Backup done", "Warning !");
+                }
+                flagReception = false;      //Mettre à false le flag
             }
 
             //Mettre à jour le txt de réception
@@ -184,13 +190,15 @@ namespace TP4_USB_GEN_SOFT
             SendMessage();              //Envoyer le message
             timer1.Stop();              //Stoper le timer
             CalculAndRefreshChart();    //Mettre à jour le graph avec les données envoyées
+            flagReception = true;       //Mettre à true le flag
         }
 
         private void btnSendCount_Click(object sender, EventArgs e)
         {
             CalculAndRefreshChart();    //Mettre à jour le graph avec les données envoyées
-            timer1.Interval = 25;       //Pour 1 message chaque 25 ms
+            timer1.Interval = 100;       //Pour 1 message chaque 25 ms
             timer1.Start();             //Active le timer
+            flagReception = true;       //Mettre à true le flag
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -258,7 +266,7 @@ namespace TP4_USB_GEN_SOFT
             else
             {
                 //Indication que le port n'est pas ouvert
-                MessageBox.Show("Port is not open", "Warning !");              
+                MessageBox.Show("Port is not open", "Warning !");             
             }          
         }
         /// 
@@ -314,8 +322,8 @@ namespace TP4_USB_GEN_SOFT
         void CalculAndRefreshChart()
         {
             //Variables
-            double Offset =  2.0*double.Parse(nudOffset.Value.ToString());
-            double Amplitude = 2.0* double.Parse(nudAmplitude.Value.ToString());
+            double Offset =  (double.Parse(nudOffset.Value.ToString()) * DEFAULT_OFFSET) / 10000.5;
+            double Amplitude = (double.Parse(nudAmplitude.Value.ToString()) * DEFAULT_OFFSET) / 10000.5;
             int i = 0;
             double Resultat = 0;
             double pointValue = (DEFAULT_OFFSET - Amplitude);
