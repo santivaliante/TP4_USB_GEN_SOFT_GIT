@@ -1,0 +1,20 @@
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.exe.config
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.exe
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.pdb
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csprojAssemblyReference.cache
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.form1.resources
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.Properties.Resources.resources
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csproj.GenerateResource.cache
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csproj.CoreCompileInputs.cache
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.exe
+C:\Users\sanvaliante\OneDrive - Education Vaud\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.pdb
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.exe.config
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.exe
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\bin\Debug\TP4_USB_GEN_SOFT.pdb
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csprojAssemblyReference.cache
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.form1.resources
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.Properties.Resources.resources
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csproj.GenerateResource.cache
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.csproj.CoreCompileInputs.cache
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.exe
+C:\Users\einfarinasa\OneDrive - Education Vaud\2 Annee\MINF\TP4_USB_GEN\TP4_USB_GEN_SOFT\TP4_USB_GEN_SOFT\obj\Debug\TP4_USB_GEN_SOFT.pdb
